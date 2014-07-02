@@ -17,7 +17,7 @@ platforms :jruby do
 end
 
 platforms :ruby, :mingw, :mswin do
-  gem 'sqlite3'
+  gem 'pg'
 
   # Event-machine -based server
   gem 'thin'
